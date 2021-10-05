@@ -62,6 +62,8 @@ namespace UploadBlobStorageMVC.Controllers
             return View();
         }
 
+
+        //comentario aula infnet
         private static void UploadToAzure(string fileName, MemoryStream ms)
         {
             //PEGAR STRING DE CONEXAO NO PORTAL!!!!!!   
